@@ -9,7 +9,7 @@ This project want to help creating Front-End content easy, fast and visual. Don'
 
 ## How to use it
 ### Add tags
-![alt text](https://github.com/Theglytch/Iris/gif/instance.gif)
+![alt text](https://github.com/Theglytch/Iris/blob/master/gif/instance.gif)
 
 ### Styling
-![alt text](https://github.com/Theglytch/Iris/gif/styling.gif)
+![alt text](https://github.com/Theglytch/Iris/blob/master/gif/styling.gif)
