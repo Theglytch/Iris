@@ -43,11 +43,10 @@ Let's see some exemples.
 ```
 # Add tags
 header
-nav
 section
-article
-div
-footer
+section #info
+article .item .white-text
+div #mydiv .white-text .center
 
 # Styling
 background-color black
