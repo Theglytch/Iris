@@ -83,8 +83,10 @@ Keep in mind that is far away from a usable version. That's experimental.
 ### Files
 ```
 # CSS
-https://theglytch.org/iris/css/iris.css
+<link type="text/css" rel="stylesheet" href="https://theglytch.org/iris/css/iris.css" media="screen">
 
 # JS
-https://theglytch.org/iris/js/iris.js
+<!-- Import jQuery first -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://theglytch.org/iris/js/iris.js"></script>
 ```
