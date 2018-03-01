@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Mono|Fira+Sans:300,400");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+/*	Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) */
+[iris-work="true"] {
+  cursor: pointer; }
+  [iris-work="true"] * {
+    cursor: pointer; }
+    [iris-work="true"] *:hover {
+      border: solid 4px #ff3333;
+      outline: solid 1px black; }
+
+[iris="false"] #iris {
+  display: none !important; }
+
+[iris-ctrl="true"] {
+  cursor: auto; }
+  [iris-ctrl="true"]:hover {
+    border: none !important;
+    outline: none !important; }
+
+iris {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  caret-color: #84d5f3;
+  cursor: auto !important;
+  display: block;
+  font-family: 'Fira sans', 'helvetica', 'arial', sans-serif; }
+  iris:hover, iris *:hover {
+    border: none !important;
+    outline: none !important; }
+
+#iris {
+  background-color: #302323;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  color: #805050;
+  display: flex;
+  height: 100%;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  width: 600px;
+  z-index: 1000000; }
+  #iris #iris-menu {
+    flex-grow: 0; }
+    #iris #iris-menu .iris-btn {
+      cursor: pointer !important;
+      display: block;
+      padding: 12px; }
+      #iris #iris-menu .iris-btn i {
+        cursor: pointer !important; }
+  #iris #iris-content {
+    background-color: #1d1313;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    flex-grow: 2;
+    position: relative; }
+    #iris #iris-content #iris-head {
+      padding: 14px 12px;
+      transition: background-color .4s ease; }
+      #iris #iris-content #iris-head.update {
+        background-color: #9b5959; }
+      #iris #iris-content #iris-head .iris-head {
+        border-radius: 1px;
+        cursor: pointer !important;
+        display: inline-block;
+        margin-right: 6px;
+        padding: 6px 8px;
+        transition: background-color .3s ease; }
+        #iris #iris-content #iris-head .iris-head:hover {
+          background-color: #352222; }
+        #iris #iris-content #iris-head .iris-head.tag {
+          color: #e3a03b; }
+        #iris #iris-content #iris-head .iris-head.id {
+          color: #d85c88; }
+        #iris #iris-content #iris-head .iris-head.class {
+          color: #70c8be; }
+    #iris #iris-content #iris-form {
+      position: relative; }
+      #iris #iris-content #iris-form #iris-form-input {
+        background-color: #241616;
+        border: none;
+        box-sizing: border-box;
+        color: #e3e3e3;
+        font-size: 14px;
+        height: auto;
+        margin: 0px;
+        padding: 16px 20px 17px;
+        width: 100%;
+        transition: background-color .3s ease; }
+        #iris #iris-content #iris-form #iris-form-input:hover, #iris #iris-content #iris-form #iris-form-input:focus {
+          background-color: #382727; }
+      #iris #iris-content #iris-form #iris-form-delete {
+        background-color: transparent;
+        position: absolute;
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 13px; }
+        #iris #iris-content #iris-form #iris-form-delete i {
+          cursor: pointer; }
+    #iris #iris-content #iris-actions {
+      padding: 20px; }
+      #iris #iris-content #iris-actions .iris-btn {
+        display: inline-block;
+        margin: 0px;
+        margin-right: 0px;
+        margin-right: 22px;
+        padding: 0px; }
+        #iris #iris-content #iris-actions .iris-btn i {
+          cursor: pointer;
+          font-size: 20px;
+          vertical-align: middle; }
+    #iris #iris-content #iris-details {
+      height: 80%; }
+      #iris #iris-content #iris-details #iris-details-head .tab {
+        cursor: pointer !important;
+        display: inline-block;
+        padding: 6px 20px; }
+        #iris #iris-content #iris-details #iris-details-head .tab.active[target="simple"], #iris #iris-content #iris-details #iris-details-head .tab.active:hover[target="simple"] {
+          border-bottom: solid 1px palevioletred !important; }
+        #iris #iris-content #iris-details #iris-details-head .tab.active[target="css"], #iris #iris-content #iris-details #iris-details-head .tab.active:hover[target="css"] {
+          border-bottom: solid 1px #70c8be !important; }
+        #iris #iris-content #iris-details #iris-details-head .tab.active[target="html"], #iris #iris-content #iris-details #iris-details-head .tab.active:hover[target="html"] {
+          border-bottom: solid 1px palevioletred !important; }
+      #iris #iris-content #iris-details #iris-details-content {
+        height: 94%;
+        position: relative; }
+        #iris #iris-content #iris-details #iris-details-content .panel {
+          background-color: #181010;
+          border: none;
+          box-sizing: border-box;
+          color: palevioletred;
+          font-family: 'Fira mono';
+          font-size: 15px;
+          height: 100%;
+          left: 0px;
+          margin: 0px;
+          line-height: 21px;
+          padding: 20px;
+          position: absolute;
+          resize: none;
+          top: 0px;
+          width: 100%;
+          white-space: pre;
+          transition: background-color .3s ease; }
+          #iris #iris-content #iris-details #iris-details-content .panel[panel="css"] {
+            color: #70c8be; }
+          #iris #iris-content #iris-details #iris-details-content .panel[panel="html"] {
+            color: palevioletred; }
+          #iris #iris-content #iris-details #iris-details-content .panel:hover, #iris #iris-content #iris-details #iris-details-content .panel:focus {
+            background-color: #000000; }
+    #iris #iris-content #iris-content-close {
+      background-color: #1d1313;
+      cursor: pointer !important;
+      padding: 18px 20px 19px;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      transition: background-color .3s ease; }
+      #iris #iris-content #iris-content-close:hover {
+        background-color: #000000; }
+      #iris #iris-content #iris-content-close i {
+        cursor: pointer;
+        vertical-align: middle; }
+
+#iris-file {
+  align-items: center;
+  background-color: #3e1d1d;
+  background-image: url("../img/background.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0px;
+  position: fixed;
+  text-align: center;
+  top: 0px;
+  width: 100%;
+  z-index: 1000010; }
+  #iris-file.dragover .iris-file-item {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-color: palevioletred !important;
+    color: palevioletred;
+    transform: scale(1.02); }
+  #iris-file #iris-file-box #iris-title {
+    margin-bottom: 20px; }
+  #iris-file #iris-file-box #iris-file-upload-container #iris-file-upload {
+    display: none; }
+  #iris-file #iris-file-box #iris-file-download-container {
+    display: flex; }
+  #iris-file #iris-file-box .iris-file-item {
+    border: solid 1px white;
+    border-radius: 2px;
+    cursor: pointer !important;
+    display: block;
+    margin: auto;
+    padding: 40px;
+    width: 200px;
+    transition: background-color .2s ease, border .2s ease, color .2s ease, transform .2s ease; }
+    #iris-file #iris-file-box .iris-file-item * {
+      cursor: inherit !important; }
+    #iris-file #iris-file-box .iris-file-item i {
+      font-size: 40px; }
+    #iris-file #iris-file-box .iris-file-item:hover {
+      background-color: rgba(0, 0, 0, 0.3);
+      border: solid 1px palevioletred !important;
+      color: palevioletred; }
+  #iris-file #iris-file-box #iris-file-skip {
+    cursor: pointer !important;
+    font-weight: 300;
+    margin-top: 20px;
+    text-decoration: underline;
+    transition: border-color .3s ease, color .3s ease; }
+    #iris-file #iris-file-box #iris-file-skip:hover {
+      border-color: palevioletred;
+      color: palevioletred; }
+
+#iris-text {
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 200px;
+  height: 20px; }
+
+#iris-autocomplete {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  position: fixed;
+  z-index: 1000001; }
+  #iris-autocomplete .iris-autocomplete-item {
+    cursor: pointer !important;
+    padding: 16px 20px 17px;
+    transition: background-color .3s ease; }
+    #iris-autocomplete .iris-autocomplete-item.focus {
+      background-color: #6d4655; }
+
+/*# sourceMappingURL=iris.css.map */
