@@ -10,6 +10,13 @@ This project want to help creating Front-End content easy, fast and visual. Don'
 * jQuery
 
 
+### Version
+0.1.4
+
+### Last update
+Build autocomplete
+
+
 ## How to use it
 ### Upload CSS
 First (for the moment) you have to upload your CSS file. That's going to be removed after. 
